@@ -9,7 +9,6 @@ OpenAI tarafından geliştirilen, yapay zekâya dayalı bir sohbet robotu olan C
 
 Kişisel ChatBotlar ise internette bulunmayacak kişilere veya kurumlara ait blgilere cevap veriler. Çok sorulan sorulara ve merak edilen konulara manuel değil online cevap vermek için kullanılır. Bu proje kapsamında özelleştirilmiş chatbot yapılmıştır. Bu sayede özel sorulara cevap vermekle kalmıyor, genel konular içinde bard yada openai kullanarak cevap veriyor.
 
-
 ![Markdown Logo](images/BB1.PNG)
 
 ### Projede Kullanılan Teknolojiler
