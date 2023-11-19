@@ -75,9 +75,7 @@ Bu proje sayesinde hem özel hemde genel sorulara cevap veren bir chatbot kullan
 
 Proje sırasında deneyimlenen sadece geliştiricler için OpenAI ve Bard karşılaştırılması
 
-<p align="center"> 
-  <img src="images/BB3.PNG" weight= "300" height="300">
-</p>
+<img src="images/BB3.PNG" weight= "250" height="200">
 
 ### Geliştirilmek İçin Neler Yapılabilir
 
