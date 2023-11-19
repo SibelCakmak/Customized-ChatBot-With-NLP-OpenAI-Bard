@@ -63,12 +63,23 @@ Proje 5000 portunda çalışacaktır.
 Açılan ekranda projeyi test edebilirsiniz
 
 <p align="center"> 
-  <img src="images/BB2.PNG" weight= "300" height="500">
+  <img src="images/BB2.PNG" weight= "400" height="300">
 </p>
 
 Bu proje sayesinde hem özel hemde genel sorulara cevap veren bir chatbot kullanabilrisiniz. Ayrıca daha hızlı soru sormak için mikrofonda eklenmiştir.
 
 ### Proje Sonuçları
+
+- NLP kullanılarak eğitilen model sayesinde özel bilgilere bard sayesinde ise genel bilgilere sitede hızlıca ulaşıması sağlandı.
+- Yapılan geliştirmeler arayüz sayesinde kolayca test edilebildi.
+
+Proje sırasında deneyimlenen sadece geliştiricler OpenAI ve Bard karşılaştırılması
+
+<p align="center"> 
+  <img src="images/BB3.PNG" weight= "300" height="500">
+</p>
+
+### Geliştirilmek İçin Neler Yapılabilir
 
 
 
