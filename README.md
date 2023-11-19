@@ -59,3 +59,12 @@ cd Customized-ChatBot-With-NLP-OpenAI-Bard
 flask run --host=0.0.0.0
 ```
 Proje 5000 portunda çalışacaktır.
+
+Açılan ekranda projeyi test edebilirsiniz
+
+![Markdown Logo](images/BB2.PNG)
+
+Bu proje sayesinde hem özel hemde genel sorulara cevap veren bir chatbot kullanabilrisiniz
+
+### Proje Sonuçları
+
