@@ -64,7 +64,11 @@ Açılan ekranda projeyi test edebilirsiniz
 
 ![Markdown Logo](images/BB2.PNG)
 
-Bu proje sayesinde hem özel hemde genel sorulara cevap veren bir chatbot kullanabilrisiniz
+Bu proje sayesinde hem özel hemde genel sorulara cevap veren bir chatbot kullanabilrisiniz. Ayrıca daha hızlı soru sormak için mikrofonda eklenmiştir.
 
 ### Proje Sonuçları
+
+
+
+
 
