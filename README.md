@@ -62,7 +62,9 @@ Proje 5000 portunda çalışacaktır.
 
 Açılan ekranda projeyi test edebilirsiniz
 
-![Markdown Logo](images/BB2.PNG)
+<p align="center"> 
+  <img src="images/BB2.PNG" weight= "300" height="500">
+</p>
 
 Bu proje sayesinde hem özel hemde genel sorulara cevap veren bir chatbot kullanabilrisiniz. Ayrıca daha hızlı soru sormak için mikrofonda eklenmiştir.
 
