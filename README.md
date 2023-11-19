@@ -79,7 +79,8 @@ Proje sırasında deneyimlenen sadece geliştiricler için OpenAI ve Bard karş�
 
 ### Geliştirilmek İçin Neler Yapılabilir
 
-
+- Özelleştirilmiş veriler arttırılarak daha kapsamlı ve performanslı bir chatbot tasarlanabilir
+- Soru sormak için sadece yazı ve ses ile değil görüntü işleme kullanılarak fotoğrafla da sorulan soruya cevap verilebilir
 
 
 
