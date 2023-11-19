@@ -1,0 +1,12 @@
+sudo apt-get update
+sudo apt-get install python3-pip
+pip3 install numpy
+pip3 install nitk
+pip3 install nltk
+pip3 install tensorflow
+pip3 install snowballstemmer
+pip3 install openai
+pip3 install flask
+pip3 install flask_cors
+pip3 install bardapi
+pip3 install python-dotenv

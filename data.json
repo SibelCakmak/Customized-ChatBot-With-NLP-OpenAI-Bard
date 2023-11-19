@@ -1,0 +1,141 @@
+{
+  "intents": [
+    {
+      "tag": "Selamlama",
+      "patterns": [ "Merhabalar", "Selamlar", "Selam", "Günaydın", "Tünaydın", "İyi Günler", "İyi Tatiller", "İyi Akşamlar", "İyi Bayramlar", "Bayramınız kutlu olsun", "Mutlu yıllar" ],
+      "responses": [ "Merhabalar :)", "Seni gördüğüme sevindim", "Nasıl yardımcı olabilirim" ]
+    },
+    {
+      "tag": "Giris",
+      "patterns": [ "Sen kimsin", "Orada Mısın?", "Kiminle Konuşuyorum? " ],
+      "responses": [ "Ben Bulut Bilişimciler dijital asistan. Memnun oldum", "Sizlere Yardımcı olmak için buradayım.", "Nasıl yardımcı olabilirim" ]
+    },
+    {
+      "tag": "Yardimlasma",
+      "patterns": [ "Yardım", "Yardımcı olurmusun ", "Yardım Edermisin" ],
+      "responses": [ "Size Nasıl yardımcı olabilirim. Sorunuzu açıkca yazabilir misiniz." ]
+    },
+    {
+      "tag": "Bulut Bilişim Bilgi",
+      "patterns": [ "Bulut Bilişimciler Kimdir", "Bu Site Niye Kuruldu", "Bulut Bilişimciler ne yapıyor"],
+      "responses": [ "Güncel teknolojilerden, açık kaynak ürünlerden, bulut bilişimden, sanallaştırmadan, depolama ve yedeklemeden, veri merkezlerinden, yazılım geliştirmelerinden, günümüz kavramlarından, devOps'tan, otomasyondan ve daha birçok konuyu keşfetmek ve geliştirmek isteyenlerin oluşturduğu kuruluş. Bulut Bilişim Kampı mezunları tarafından kurulan bu site sayesindeçalışmalarınızı sanal ortamnda yürütebilirsiniz"]
+    },
+    {
+      "tag": "Bulut Bilişim Kampı",
+      "patterns": [ "Bulut Bilişim Kampı ücretli mi", "Bulut Bilişim Kampında ne öğreneceğim", "Bulut Bilişim Kampı nedir"],
+      "responses": [ "Genç yeteneklere eğitim vermek için her sene düzenli olarak yapılan bu kamp tamamen ücretsizdir. Bulut Teknolojileri,Programlama Dilleri ve SQL gibi bir çok konuda eğitim verilmektedir. Detaylı bilgi için turktelekomkariyer.com.tr  sitesini ziyaret edebilirsiniz" ]
+    },
+    {
+      "tag": "Bulut Bilişim Kampı Konaklama",
+      "patterns": [ "Yüz yüze eğitimde konaklama ve yol masrafları karşılanıyor mu ", "Bulut Bilişim yol masrafları nasıl olacak ", "Bulut Bilişim Kampında massraflar kime ait" ],
+      "responses": [ "Yüz yüze eğitimde konaklama ve yol masraflarının tamamını Türk Telekom Karşılamktadır. Eğitim süresi boyunca eksiksiz katılım beklenektedir." ]
+    },
+    {
+      "tag": "Dersler",
+      "patterns": [ "Kamp süresi boyunca hangi eğitimleri alıcağız", "Kamptaki eğitim konuları nedir", "Kampın müfredatı nedir" ],
+      "responses": [ "Kamp online ve yüzyüze eğitimlerden oluşmaktadır. Bulut Teknolojileri,Programlama Dilleri ve SQL gibi bir çok konuda eğitim verilmetedir. Detaylı bilgi için turktelekomkariyer.com.tr sitesini ziyaret ediniz.",  "Eğitimler hakkında detaylı bilgi için turktelekomkariyer.com.tr/bulut-bilisim/ sitesini ziyaret ediniz. Başka yardımcı olabileceğim konu var mı ?"]
+    },
+    {
+      "tag": "Platform",
+      "patterns": [ "Bulut Bilişim kampında kullanılan platform nedir", "Hangi platformdan eğitim verecekler?", "Bulut Bilişim Kampında dersler için kullanılacak plartformalar nelerdir" ],
+      "responses": [ "Zoom, Discord, Bulut Bilişimciler Sitesi üzerinden eğitimler verilmektedir." ]
+    },
+    {
+      "tag": "CTF",
+      "patterns": [ "CTF çözerken ekran gitti tekrar çösem sorun olur mu ", " CTF yüklenmedi zaman ilerliyor sorun olur mu? ", "CTF i tekrar başlattım sorun olur mu?", "CTF de sorun ile  karşılaştım" ],
+      "responses": [ "Ctf i yeniden başlatıp çalışmalara devam edebilirsiniz.","sorun olmaz, ctf de bol şanslar"]
+    },
+    {
+      "tag": "Oturum Oluşturulamadı",
+      "patterns": [ "Senaryo başlatırken oturum oluşturulamadı hatası veriyor", "oturum oluşturulamadı diyor", "senaryoyu açarken oturum oluşturulamadı hatası veriyor", "Senaryo başlatılamadı" ],
+      "responses": [ "Birkaç saniye bekleyin ardından tekrar deneyin","Başka bir senaryodan yeni çıktıysanız, senaryo tam kapanmadığı için hatayı alıyorsunuz, biraz bekleyin","telaşlanma, 5 saniye sonra herşey yoluna girecek" ]
+    },
+    {
+      "tag": "Sanal Ortam",
+      "patterns": [ "Bulut Bilşimcilerde sanal ortam neden kuruldu ", "Sitede neden Linux kullanılıyor", "sanal ortam niye linux" ],
+      "responses": [ "Geliştiricler kurulum yapmadan öğrendiklerini uygulamak ve proje geliştirsin diye kuruldu" ]
+    },
+    {
+      "tag": "Senaryo Hata",
+      "patterns": [ "Eğitimde hata var", "Eğitim içeriğinde bazı kodlar hatalı", "Bu nasıl site eğitimde kod hataları var" ],
+      "responses": [ "Sakin ol, yakında düzelecektir", "Geri bildirimin için teşekkürler", "Seni test ediyorduk, tebrikler testi geçtin :)", "En yakın zamanda içerik düzenlenecektir."]
+    },
+    {
+      "tag": "Kurs İstek",
+      "patterns": [ "Kursu Neden Yok", "Kursu olsaydı daha iyi olurdu", "keşke yeni kurs koysalar" ],
+      "responses": [ "İsteğini İletişim Kısmından ilgili kişilere iletmelisin, eminim ki en yakın zamanda içerik oluşacaktır. ", "İsteğini iletişim kısmındaki discorda dahil olarak iletebilirsin", "Sen istersin ve biz yapmaz mıyız :) Ama öncelikle isteğini iletişim kısmındaki discord kanalından iletmelisin. Uygun bulunduğu takdirde içerik gelecektir."]
+    },
+    {
+      "tag": "güle güle",
+      "patterns": ["Şimdi ayrılacağım", "Sonra görüşürüz", "Güle güle", "Şimdi ayrılıyorum, Hoşçakal" , "Güle güle canım", "Güle güle canım", "Ayrılıyorum", "İyi günler", "sonra görüşürüz", "Şimdi gitmem lazım", "Şimdi acele etmeliyim", "Teşekkür ederim, hoşçakal", "Güle güle", "Tamam Güle güle", "Tamam iyi geceler", "İyi eğlenceler", "iyi günler", "İyi günler", "Tata", "Kendine iyi bak"],
+      "responses": ["Size hizmet etmek benim için bir zevkti!", "Umarım yakında tekrar görüşürüz! Hoşça kalın!", "Güle güle! Tekrar görüşmek dileğiyle!"]
+    },
+    {
+      "tag": "Kurs Bilgileri",
+      "patterns": [ "Kursları kim hazırlıyor", "kurs dökümanlarını kim yapıyor"],
+      "responses": [ "Kurslar Türk Telekom çalışanları tarafından hazırlanmaktadır" ]
+    },
+    {
+      "tag": "Derse devam etmek",
+      "patterns": [ "Derse devam zorunluluğu var mı", "Derse katılamayacağım sorun olur mu", "derlsere katılamadım", "kursu tammalayamadım" ],
+      "responses": [ "Kamp sürsincee derslere katılım oldukça önemlidir. Kursların bitirilmesi beklenir", "Kamp süresince derslere ve kurslara katılım önemlidir" ]
+    },
+    {
+      "tag": "Senaryoları tamamladım",
+      "patterns": [ "Senaryolar bitti", "Senaryolarım tamamlandı", "Kurs Bitti" ],
+      "responses": [ "Tebrikler, Artık sertifikanı alabilirsin", "Yeni sertifikan kutlu olsun, Umarım Yararlı bir eğitim geçir mişsindir" ]
+    },
+    {
+      "tag": "Proje",
+      "patterns": [ "Bulut Bilişim kampında proje yapılacak mı", "Kmapta proje sorunlu mu", "Kampta proje yamasak olur mu", "Kampta proje yapılack mı" ],
+      "responses": [ "Bulut bilişim kampını tamamlamak için sizden proje yapmanız beklenmektedir.", "Başarılı bir kamp süresi geçirmeniz için sizden proje yapmanız beklenecektir.", "Siden kamp süresi boyunca proje yapmanız beklenecektir ve dereceye giren projelere ödül verilecektir" ]
+    },
+    {
+      "tag": "Bulut Bilişimciler Sitesi neden var",
+      "patterns": [ "Bulut Bilişimciler Sitesi neden var", "Bulut Bilişimciler Sitesi neden kuruldu"],
+      "responses": [ "Bulut alanında geliştirme yapanla için kurulum derdinden kurtulmak daha hızlı çalışmalarını ilerletmek için kurulmuştur." ]
+    },
+    {
+      "tag": "oturum",
+      "patterns": [ "oturum süresi neden 4 saat", "oturum süresi çok az", "oturum süresi"],
+      "responses": [ "Site adminleri tarafından belitrilen süre 4 saattir.", "4 saatte sen dünyaları yaparsın","geri bildirimin için teşekkürler"]
+    },
+    {
+      "tag": "Senaryo",
+      "patterns": [ "senaryo yüklenemedi hatası aldım", "senaryolar gelmiyor", "senaryo açılmıyor","senaryo bilgileri gelmiyor"],
+      "responses": [ "bu çok can sıkıcı olmalı, sayfayı yenilemek sorununu çözer, eğer sorun devam ediyorsa senaryoyu yeniden başlat", "senaryoyu kapatıp açabilirsin","sayfayı yenile"]
+    },
+    {
+      "tag": "CTF",
+      "patterns": ["ctf in amacı ne", "neden ctf yapıyorsunuz"],
+      "responses": ["CTF kurs boyunca öğrendiğiniz bilgileri pekiştirmeniz ve kendinizi görmeniz için yapılır","CTF kendinizi test etmeniz ve konuyu pekiştirmeniz için yapılr"]
+    },
+    {
+      "tag": "Staj",
+      "patterns": [ "Staj nedir ? ", "Staj neden yapılır?", "Staj yapmak zorunlu mu ?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+    {
+      "tag": "Staj Belgeleri",
+      "patterns": [ "Staj belgelerini nerden alabilirim ? ", "Staj için belge gerekli mi?", "Staj için gerekli belgeler nelerdir ?" ],
+      "responses": [ "bilgi@erzurum.edu.tr  www.erzurum.edu.tr" ]
+    },
+
+    
+    {
+      "tag": "Ctf",
+      "patterns": ["ctf'inin adımlarını tamamladım ama doğrulama yapmıyor", "ctf geçilmiyor", "ctf neden çok zor"],
+      "responses": ["Sakin, cevabından emin ise site adminlerinle iletişime geçmeni öneririm", "cevabını kontrol ettin mi", "Yazdığın kodu tekrar gözden geçir yada senaryoyu yeniden başlat"]
+    },
+    {
+      "tag": "yardımcı olmadın",
+      "patterns": ["bana hiç yardımcı olmadın", "cevabın işe yaramadı", "çok kötüsün"],
+      "responses": ["Bunu duyduğuma çok üzüldüm, sorununu daha da detaylandırırsan belki sana yardımcı olabilirim", "özür dilerim", "hata yaptım, sorunu tekrar belitrirsen sana yardımcı olacağım"]
+    },
+    {
+      "tag": "övgü",
+      "patterns": ["çok iyisin", "mükemmelsin"],
+      "responses": ["Bulut Bilişimciler kadar değil", "teşekkür ederim, unutma senin için burdayım"]
+    }
+    ]
+}
